@@ -59,9 +59,19 @@
 	<ItemGroup>
 	  <None Remove="View\" />
 	  <None Remove="ViewModel\" />
+	  <None Remove="Lib\" />
+	  <None Remove="Resources\Tools\Elm" />
+	  <None Remove="Resources\Tools\" />
+	  <None Remove="Resources\Tools\elm-format" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="View\" />
 	  <Folder Include="ViewModel\" />
+	  <Folder Include="Lib\" />
+	  <Folder Include="Resources\Tools\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Tools\Elm" />
+	  <BundleResource Include="Resources\Tools\elm-format" />
 	</ItemGroup>
 </Project>
